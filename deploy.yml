@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: httpd-deploymnet
+    app: httpd
+spec:
+  replicas: [B
+  selector: 
+    matchLabels:
+    app:
+      labels:
+    template:
+      labels:
+        app: httpd
